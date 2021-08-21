@@ -1,0 +1,921 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+#navbar{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.navright{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+a{
+    text-decoration: none;
+    color: #7f8c8d;
+    font-family: Avenir-Next,Roboto,sans-serif;
+}
+.nav-but{
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    background-color: orange;
+    border: none;
+
+}
+#main{
+    margin-right: 5px;
+    width: 99%;
+    height: 100vh;
+}
+.mainposter{
+    width: 100%;
+    min-height: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('poster.jpeg');   
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.mainposter:hover{
+    min-height: 100%;
+    background: linear-gradient( #000000b3, #000000b3 ), url('poster.jpeg');
+    background-repeat: no-repeat;
+    background-position:center;
+
+}
+.main-heading{
+    color: white;
+    padding: 100px;
+    font-family: Avenir-Next,Roboto,sans-serif;
+    font-size: 40px;
+}
+.main-heading h1{
+    font-size: 90px;
+}
+.main-heading h3{
+    font-size: 33px;
+}
+.buttonsapply{
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.apply{
+    border: none;
+    background-color: #4992ca;
+    color: white;
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.register{
+    border-radius: 2px;
+    border:solid #fff;
+    background-color: #0000;
+    color: white;
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+
+}
+.learn{
+    border:solid #fff;
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+}
+.pocket{
+    font-family: Avenir-Next,Roboto,sans-serif;
+    display: flex;
+    background-color: #4992ca;
+    color: white;
+    height: 1400px;
+}
+.pocket-content{
+    text-align: center;
+    margin: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.pocket-content h2{
+    font-size: 45px;
+}
+.pocket-content h4{
+    font-size: 30px;
+}
+
+.iconinfo{
+    color: white;
+    display: flex;
+    height: 40vh;
+    width: 100%;
+    font-size: 45px;
+    justify-content: space-evenly;
+}
+.stats{
+    font-family: Avenir-Next,Roboto,sans-serif;
+    text-align: center;
+justify-content: center;
+align-items: center;
+margin-top: 5%;
+height: auto;
+
+}
+.statscontent{
+    margin-top: 0.5%;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.stats h2{
+    font-size: 45px;
+}
+.statscontent h4{
+    font-size: 30px;
+}
+.statscontent p{
+    text-decoration: none;
+    font-size: 15px;
+}
+.reveal{
+    font-weight: 100;
+    margin:2%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.greninja{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.poke{
+    border-radius: 50%;
+}
+.reveal h4{
+    font-size: 30px;
+}
+.reveal h6{
+    font-size: 18px;
+}
+.qanda{
+    display: flex;
+    height: 400px;
+    padding-top: 4%;
+    justify-content: center;
+    background-color: #4992ca;
+    color: white;
+    font-family: Avenir-Next,Roboto,sans-serif;
+}
+.questioning{
+    display: block;
+    position: absolute;
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.questioning ul li{
+    margin: 1%;
+    opacity: 0.9;
+    margin-left: 15%;
+    font-size: 10px;
+}
+.qanda h2{
+    font-size:45px;
+}
+.battles{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    justify-content: center;
+    height: 550px;
+    margin-top: 2%;
+}
+.battles h1 {
+    font-family: Avenir-Next,Roboto,sans-serif;
+}
+.battleinfo{
+    position: absolute;
+    margin-top: 4%;
+}
+.tables{
+    display: flex;
+   position: absolute;
+   flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;
+    height: 350px;
+    
+}
+.tableright{
+    font-size: 15px;
+    flex: 2;
+}
+th{
+    text-align: left;
+}
+.tableleft{
+    flex:1;
+}
+.tableright td,.tableleft h6{
+    color: #8a8a8a;
+    font-size: 11px;
+}
+.tableright h4{
+    position: absolute;
+    margin-top: 10%;
+    bottom: 25%;
+}
+.tableright table,.tableright th,.tableright td{
+    border-collapse: collapse;
+}
+.tableright th,.tableright td{
+    padding: 5px;
+    border: 0.2px solid #8a8a8a;
+}
+.tablebut{
+    position: absolute;
+    font-size: 16px;
+    bottom: 10%;
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+    color: #4992ca;
+}
+.tablebutton{
+    position: absolute;
+    bottom: 0;
+    background-color: #4992ca;
+    border: none;
+    padding:7px;
+    color: white;
+    margin-top: 5%;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.knowmore{
+    display: flex;
+    color: white;
+    height: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    padding-top: 2%;
+    background-color: #424242;
+    justify-content: center;
+}
+.knowmore h2{
+    font-size: 45px;
+}
+.knowmore a{
+    position: absolute;
+margin-top: 5%;
+
+}
+.knowmore button{
+    background-color: #0000;
+    padding:10px;
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 2px solid #fff;
+    border-radius: 2px;
+}
+.card{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 2%;
+    height: 500px;
+    justify-content: center;
+}
+.card h2{
+   color: #8a8a8a;
+   font-size: 45px;
+
+}
+.pokecard{
+    position: absolute;
+    height: 300px;
+    width: 20%;
+    border: 1px solid #8a8a8a;
+    border-top:15px solid #4992ca;
+    margin-top: 7%;
+}
+.pokecard .top{
+    display: flex;
+    padding-top: 10%;
+    margin: 0;
+    padding-bottom: 10%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    flex-direction: column;
+}
+.pokecard .top h6{
+    color: #8a8a8a;
+}
+.pokecard .bottom{
+    position: absolute;
+    text-align: center;
+    margin-top: 5%;
+}
+.trainers{
+    font-family: Avenir-Next,Roboto,sans-serif;
+    height: 800px;
+    padding-left: 10%;
+    padding-right: 20%;
+    font-weight: 100;
+    color: white;
+    padding-top: 2%;
+    text-align: center;
+    background-color: #4992ca;
+}
+.gencards{
+    height: 700px;
+    text-align: center;
+    padding-top: 3%;
+}
+.gencards h1{
+    color: #8a8a8a;
+}
+.cards-container{
+    flex-wrap: wrap;
+    display: flex;
+    position: absolute;
+}
+.first{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-right: 5%;
+    margin-left: 35%;
+}
+
+.pokecards{
+    width: 300px;
+    height: 300px;
+    margin: 2%;
+    border: 0.3px solid #d8d3d3;
+    border-top:15px solid #4992ca;
+}
+.tops{
+    display: flex;
+    padding-top: 2%;
+    padding-right: 100px;
+
+    padding-bottom: 6%;
+    justify-content: left;
+
+    background-color: rgb(241, 241, 241);
+    flex-direction: column;
+}
+.tops h2{
+    padding-bottom:4%;
+}
+.subscribe{
+    display: flex;
+    padding: 2%;
+   margin-top: 5%;
+    justify-content: center;
+    font-family: Avenir-Next,Roboto,sans-serif;
+    background-color: #424242;
+    color: white;
+    height: 170px;
+}
+.subbut{
+    position: absolute;
+    margin-top: 4%;
+}
+.subbut input{
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 80px;
+}
+.subbut button{
+    background-color: #0000;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    padding: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: white;
+}
+.pokemongames{
+    display: flex;
+    padding-top:3% ;
+justify-content: center;
+height: 800px;
+    font-family: Avenir-Next,Roboto,sans-serif;
+
+}
+.pokemongames h1{
+    color:#8a8a8a;
+
+}
+.pokemongames .tablegames{
+    position: absolute;
+    display: flex;
+    margin-top: 5%;
+    font-size: 20px;
+}
+.tablegames td{
+    margin: 3%;
+    padding: 1%;
+}
+.tablegames{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+}
+.pokemongames img{
+    width: 200px;
+}
+.tablegames button{
+    background-color: #4992ca;
+    padding: 10px;
+    padding-right: 60px;
+    border: none;
+    padding-left: 60px;
+    position: absolute;
+    color: white;
+    margin-top: 50%;
+}
+.designers{
+    display: flex;
+    height: 550px;
+    justify-content: center;
+    background-color: #4992ca;
+    color: white;
+    padding-top: 3%;
+}
+.designertable{
+    position: absolute;
+    margin-top: 5%;
+    justify-content: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    align-items: center;
+}
+.designertable table {
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+.designertable img{
+    border-radius: 50%;
+}
+.designertable th{
+    font-size: 20px;
+    padding-left: 10%;
+}
+.designertable td{
+    padding: 1%;
+    font-size: 12px;
+}
+.pokelogos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3%;
+    height: 100px;
+    color: #8a8a8a;
+}
+.para{
+    position: absolute;
+margin-top: 3%;    
+}
+.logoslogos{
+    margin-right: 20%;
+    display: flex;
+    padding: 5%;
+    position: absolute;
+    flex-wrap: wrap;
+    margin-left: 20%;
+}
+.logoslogos img{
+    padding:6%;
+}
+.wanttoknowmore{
+    height: 200px;
+    margin-top: 30%;
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    background-color: #4992ca;
+    font-family: Avenir-Next,Roboto,sans-serif;
+    color: white;
+}
+.wanttoknowmore button{
+    color: white;
+    position: absolute;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    margin-top: 5%;
+    padding: 10px;
+    background-color: #0000;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(0,73,83);
+    color: white;
+    justify-content: center;
+    font-family: Avenir-Next,Roboto,sans-serif;
+}
+.containers{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.containers h3{
+   color:  #8a8a8a;
+}
+
+.containers h4{
+    color: white !important;
+    padding: 5px;
+}
+.container1,.container2,.container3,.container4{
+    padding: 40px;
+}
+
+@media screen and (max-width:1424px){
+    .subscribe{
+        padding: 5%;
+   margin-top: 5%;
+   height: 270px;
+
+    }
+    .subbut{
+        margin-top: 10%;
+    }
+    .tablegames button{
+font-size: 10px;
+margin-top: 55%;
+    }
+}
+@media screen and (max-width:1200px){
+    .subscribe{
+        padding: 5%;
+   margin-top: 65%;
+   height: 270px;
+
+    }
+    .subbut{
+        margin-top: 10%;
+    }
+    .tablegames button{
+        padding: 10px;
+
+        margin-top: 68%;
+    }
+}
+@media screen and (max-width:804px){
+    .subscribe{
+        padding: 10%;
+   margin-top: 55%;
+    }
+    .subbut{
+        margin-top: 10%;
+    }
+    .first{
+        
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+    .qanda h2{
+        font-size: 25px;
+    }
+    .trainers{
+        height: 400px;
+    }
+    .trainers h1{
+        font-size: 25px;
+    }
+    a{
+    font-size: 12px;
+}
+.battles h1{
+    font-size: 30px;
+}
+.battleinfo h4{
+    font-size: 16px;
+    margin-top: 2%;
+}
+.tables{
+    display: flex;
+   position: absolute;
+   flex-direction: row;
+    margin-left: 30%;
+    margin-right: 15%;
+    margin-top: 100px;
+    width: 100%;
+    height: 250px;
+    
+}
+
+td,.tableleft h6{
+    font-size: 8px;
+}
+.tableright th,td{
+    padding: 1px;
+    font-size: 10px;
+
+}
+.knowmore h2{
+    font-size: 35px;
+}
+.knowmore a{
+    position: absolute;
+margin-top: 8%;
+
+}
+.tablebut{
+    bottom: 15%;
+}
+.card{
+    height: 400px;
+}
+.card h2{
+   font-size: 35px;
+
+}
+.pokecard{
+    height: 300px;
+    width: 50%;
+    margin-top: 10%;
+}
+.tablegames button{
+    margin-top: 80%;
+    padding: 10px;
+
+}
+
+}
+@media screen and (max-width:1024px){
+    .pokemongames img{
+        width: 150px;
+    }
+    .pokelogos h1{
+        font-size:20px;
+    }
+    .pokemongames{
+        height: 700px;
+    }
+    .subscribe{
+        padding: 5%;
+   margin-top:100%;
+    }
+    .subbut{
+        margin-top: 10%;
+    }
+    .first{
+        margin-right: 5%;
+        margin-left: 15%;
+    }
+    .trainers{
+        height: 700px;
+    }
+    td,.tableleft h6{
+        font-size: 10px;
+    }
+    .pocket{
+        height: 900px;
+    }
+    .main-heading h1{
+        font-size: 35px;
+    }
+    .main-heading h3{
+        font-size: 30px;
+    }
+    .navright{
+        width: 50%;
+        justify-content: space-evenly;
+
+}
+.pocket-content h2{
+    font-size: 30px;
+}
+.pocket-content h4{
+    font-size: 17px;
+}
+.knowmore h2{
+    font-size: 40px;
+}
+.knowmore a{
+    position: absolute;
+margin-top: 7%;
+
+}
+.tablegames button{
+    margin-top: 80%;
+    padding: 10px;
+    font-size: 10px;
+
+}
+}
+
+@media screen and (max-width:608px){
+ a{
+     font-size: 8px;
+ }
+
+    #navbar{
+        justify-content: center;
+        align-items: center;
+    }
+    .navright{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 16px;
+        top:5vh;
+        height: 30vh;
+        position: absolute;
+    }
+    #main{
+        margin-top: 40px;
+        height: 80vh;
+    }
+    .main-heading h1{
+        font-size: 20px;
+    }
+    .main-heading h3{
+        font-size: 14px;
+    }
+    .pocket{
+        height: 700px;
+    }
+    .pocket-content h2{
+        font-size: 30px;
+    }
+    .pocket-content h4{
+        font-size: 10px;
+    }
+    .stats h2{
+        font-size: 25px;
+    }
+    .statscontent h4{
+        font-size: 15px;
+    }
+    .statscontent p{
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .reveal h4{
+        font-size: 16px;
+    }
+    .reveal h6{
+        font-size: 10px;
+    }
+    .qanda{
+        height:300px;
+    }
+    .qanda h2{
+        font-size:25px;
+    }
+    .qanda h4{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .questioning li{
+        font-size: 10px;
+    }
+    .questioning ul li{
+        font-size: 7px;
+    }
+    .battles h1{
+        font-size: 20px;
+    }
+    .battleinfo h4{
+        font-size: 10px;
+        margin-top: 2%;
+    }
+    .battles{
+        height: 500px;
+    }
+    .tables{
+        display: flex;
+       position: absolute;
+       flex-direction: row;
+        margin-left: 30%;
+        margin-top: 100px;
+        width: 100%;
+        height: 300px;
+        
+    }
+    .tableright td,.tableleft h6{
+        font-size: 6px;
+    }
+    .tableright th,td{
+        padding: 1px;
+        font-size: 6px;
+
+    }
+    .knowmore h2{
+        padding-top: 10%;
+        font-size: 15px;
+    }
+    .knowmore a{
+        position: absolute;
+    margin-top: 20%;
+    
+    }
+    .card{
+        height: 400px;
+    }
+    .card h2{
+       font-size: 25px;
+    
+    }
+    .pokecard{
+        height: 300px;
+        width: 50%;
+        margin-top: 10%;
+    }
+
+    .trainers{
+        height: 1000px;
+    }
+    .trainers h1{
+        padding: 10px;
+        font-size: 15px;
+    }
+    .first{
+        
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+    .subscribe{
+        padding: 25%;
+   margin-top: 180%;
+   height: 400px;
+   
+    }
+    .subscribe h1{
+        font-size: 18px;
+    }
+    .pokecards:nth-child(4){
+        height: 350px;
+    }
+    .subbut{
+        margin-top: 25%;
+    }
+    .subbut input{
+        padding: 5px;
+        
+    }
+    .subbut button{  
+        padding: 5px;  
+    }
+    .pokemongames h1,.pokemongames th{
+        font-size: 15px;
+    }
+    .pokemongames{
+        height: 500px;
+    }
+    .tablegames button{
+        margin-top: 90%;
+        padding: 10px;
+    }
+    .designers h1{
+        font-size:18px ;
+    }
+    .pokelogos h1{
+        font-size:15px;
+    }
+    .para h5{
+        font-size:8px;
+        padding: 2%;
+    }
+    .wanttoknowmore{
+        padding:8%;
+        font-size: 8px;
+        margin-top: 15%;
+    }
+    .containers h3{
+        font-size: 13px;
+    }
+    .containers h4{
+        padding: 1px;
+        font-size: 8px;
+    }
+    .container1,.container2,.container3,.container4{
+        padding: 2px;
+    }
+    .pokemongames img{
+        width: 100px;
+    }
+}
